@@ -89,7 +89,7 @@ main {
     color: var(--secondary-color);
     margin-bottom: 5px;
 }
-
+     
 .section-subtitle {
     text-align: center;
     color: var(--text-muted);

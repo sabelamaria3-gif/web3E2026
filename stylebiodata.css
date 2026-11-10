@@ -1,0 +1,131 @@
+
+/* PENGATURAN DASAR */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8e8e8;
+    color: #222;
+    padding: 30px 15px;
+}
+
+/* JUDUL UTAMA */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #111;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+/* PROFIL UTAMA */
+.Profil_Utama {
+    background-color: #fff;
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    border-top: 6px solid #222;
+}
+
+/* FOTO PROFIL */
+.Foto_Profil {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #333;
+    margin-bottom: 15px;
+}
+
+.Profil_Utama h2 {
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+.status {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #777;
+    margin-bottom: 25px;
+}
+
+/* DATA DIRI */
+.Data_Diri {
+    text-align: left;
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+}
+
+.Data_Diri p {
+    padding: 10px 5px;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+
+.Data_Diri span {
+    display: inline-block;
+    width: 115px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* RIWAYAT PENDIDIKAN DAN HOBI */
+.Riwayat_Pendidikan,
+.Hobi {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.10);
+}
+
+.Riwayat_Pendidikan h2,
+.Hobi h2 {
+    font-size: 17px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #333;
+    letter-spacing: 1px;
+}
+
+.Riwayat_Pendidikan ol,
+.Hobi ul {
+    padding-left: 25px;
+}
+
+.Riwayat_Pendidikan li,
+.Hobi li {
+    padding: 8px 5px;
+    color: #444;
+    font-size: 14px;
+}
+
+/* EFEK HOVER */
+.Profil_Utama:hover,
+.Riwayat_Pendidikan:hover,
+.Hobi:hover {
+    transform: translateY(-3px);
+    transition: 0.3s;
+}
+
+/* TAMPILAN HP */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .Profil_Utama,
+    .Riwayat_Pendidikan,
+    .Hobi {
+        width: 100%;
+        padding: 20px;
+    }
+}
